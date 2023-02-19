@@ -1,7 +1,8 @@
 //your code here
 var arr;
 var sum = 0;
-function addElement() {
+function addElement(event) {
+	event.preventDefault();
 	var input = document.getElementById('ele').value;
     var text = String(input); 
 	arr = text.split(",");
