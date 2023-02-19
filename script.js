@@ -3,7 +3,7 @@ var arr;
 var sum = 0;
 function addElement(event) {
 	event.preventDefault();
-	var input = document.getElementById('ele').value;
+	var input = document.querySelector('input').value;
     var text = String(input); 
 	arr = text.split(",");
 	//alert(input);
